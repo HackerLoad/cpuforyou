@@ -1,0 +1,111 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    background-color: #212529;
+}
+
+/* NAVBAR */
+
+.navbar .container a {
+    font-family: sf-pro-bold;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.navbar .container a:hover {
+    font-family: sf-pro-bold;
+    font-style: normal;
+}
+
+.navbar .container .dropdown-menu {
+    background-color: #212529;
+}
+
+.navbar .container .dropdown-menu a {
+    font-family: sf-pro-medium;
+}
+
+.navbar .container .dropdown-menu a:hover {
+    color: white;
+    background-color: #6610f2;
+}
+
+/* LAPTOPS */
+
+#laptops {
+    background-color: #212529;
+    text-align: center;
+}
+
+#laptops h1 {
+    color: white;
+    font-family: sf-pro-bold;
+}
+
+#laptops h2 {
+    color: white;
+    font-family: sf-pro-medium;
+    font-size: 21px;
+}
+
+#laptops hr {
+    background-color: white;
+}
+
+#laptops h3 {
+    color: white;
+    font-family: sf-pro-medium;
+}
+
+#laptops p {
+    color: lightgray;
+    font-family: sf-pro-light;
+}
+
+#laptops h4 {
+    color: white;
+    font-family: sf-pro-bold;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #212529;
+    color: lightgray;
+}
+
+footer a {
+    font-family: sf-pro-light;
+}
+
+footer a:hover {
+    font-family: sf-pro-light;
+    text-decoration: underline;
+}
+
+footer p {
+    color: white;
+    font-family: sf-pro-medium;
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: sf-pro-bold;
+    src: url("../fonts/SFProDisplay-Bold.ttf");
+}
+
+@font-face {
+    font-family: sf-pro-bold-italic;
+    src: url("../fonts/SFProDisplay-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: sf-pro-medium;
+    src: url("../fonts/SFProText-Medium.ttf");
+}
+
+@font-face {
+    font-family: "sf-pro-light";
+    src: url("../fonts/SFProText-Light.ttf");
+}
